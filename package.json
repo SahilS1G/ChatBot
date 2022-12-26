@@ -1,4 +1,5 @@
 {
+  "homepage": "https://sahils1g.github.io/ChatBot/",
   "name": "chatbot",
   "version": "0.1.0",
   "private": false,
@@ -25,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://sahils1g.github.io/ChatBot/",
+    
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build"
   },
