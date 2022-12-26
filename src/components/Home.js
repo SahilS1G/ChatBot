@@ -9,7 +9,7 @@ import Section2 from "./Section2";
 const useStyles = makeStyles(() => ({
     heading: {
         paddingTop: "10vw",
-        backgroundColor: "black",
+        backgroundColor: "#131516",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
@@ -18,29 +18,40 @@ const useStyles = makeStyles(() => ({
         height : "100vh",
 
     },
+    headingimg: {
+        width: "100%",
+    },
     Title: {
-        fontSize: "4vw",
+        fontSize: "4em",
         lineHeight: "1.5",
         fontWeight: "900",
         letterSpacing: "0em",
         textTransform: "uppercase",
         backgroundClip: "text",
+        color: "#d8d4cf",
+        
 
     },
-    mainpg: {
-            // backgroundColor: "brown"
+    
+    "@media (max-width: 1000px)":{
+        headingimg: {
+            width: "50vw",
+        },
+        Title: {
+            fontSize: "8vw",
+        }
     }
 }));
 
 
 
 function Home() {
-    const { heading, Title, mainpg } = useStyles();
+    const { heading, Title, headingimg} = useStyles();
     return (
         <>
         <div className={heading}>
             <div >
-                <img src="https://godinabox.co/images/god1-p-500.png" alt="" style={{width: "25vw"}} />
+                <img src="https://godinabox.co/images/god1-p-500.png" alt="" className={headingimg}/>
             </div>
             <Typography className={Title}>
                 <h1 >

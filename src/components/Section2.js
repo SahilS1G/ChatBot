@@ -9,7 +9,7 @@ const useStyles = makeStyles(() => ({
         justifyContent: "center",
         alignItems: "center",
         height : "850px",
-        backgroundColor: "red",
+        backgroundColor: "#272932",
     },
     channelog: {
         fontSize: "2em",
@@ -18,16 +18,16 @@ const useStyles = makeStyles(() => ({
         letterSpacing: "0em",
         textTransform: "uppercase",
         backgroundClip: "text",
-        // color: "white",
+        color: "white",
     },
     cinfo: {
         marginTop : "2vw",
         fontSize: "1em",
         lineHeight: "1.5",
-        fontWeight: "900",
+        // fontWeight: "900",
         letterSpacing: "0em",
         width: "550px",
-        backgroundColor: "blue",
+        backgroundColor: "#4D7EA8",
         padding: "50px",
         paddingLeft: "100px",
         paddingRight: "100px",
@@ -36,6 +36,7 @@ const useStyles = makeStyles(() => ({
         borderTopRightRadius: "50%",
         borderBottomRightRadius: "10%",
         borderTopLeftRadius: "10%",
+        color: "white",
     },
     insideinfo: {
         paddingTop: "10%",
@@ -50,7 +51,7 @@ const useStyles = makeStyles(() => ({
             borderTopRightRadius: "1px",
             borderBottomRightRadius: "1px",
             borderTopLeftRadius: "1px",
-           
+            backgroundColor: "#272932",
 
         }
     }

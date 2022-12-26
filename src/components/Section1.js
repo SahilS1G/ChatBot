@@ -66,7 +66,7 @@ const useStyles = makeStyles(() => ({
     
     width: "100%",
     height: "850px",
-    background: "rgb(18,46,17)",
+    background: "#1C1F33",
     
   },
 
@@ -131,6 +131,11 @@ const useStyles = makeStyles(() => ({
     bg: {
       marginRight : "37vw",
     }
+  },
+  "@media (max-width: 600px)": {
+    phoneimg: {
+      height: "100vw",
+    },
   }
 }));
 

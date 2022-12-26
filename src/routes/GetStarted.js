@@ -13,7 +13,7 @@ export default function GetStarted() {
     <>
     <Header />
     <CssVarsProvider >
-      <main style={{paddingTop: "200px"}}>
+      <main style={{paddingTop: "200px",backgroundColor:"#272932",paddingBottom:"362px"}}>
       
         <Sheet
           sx={{
@@ -34,30 +34,19 @@ export default function GetStarted() {
             <Typography level="h4" component="h1">
               <b>Welcome!</b>
             </Typography>
-            <Typography level="body2">Sign in to continue.</Typography>
+            <Typography level="body2">please enter your phone number.</Typography>
           </div>
           <TextField
             // html input attribute
             name="email"
             type="email"
-            placeholder="johndoe@email.com"
+            placeholder="9900990099"
             // pass down to FormLabel as children
-            label="Email"
+            label="Phone Number"
           />
-          <TextField
-            name="password"
-            type="password"
-            placeholder="password"
-            label="Password"
-          />
-          <Button sx={{ mt: 1 /* margin top */ }}>Log in</Button>
-          <Typography
-            endDecorator={<Link href="/sign-up">Sign up</Link>}
-            fontSize="sm"
-            sx={{ alignSelf: 'center' }}
-          >
-            Don&apos;t have an account?
-          </Typography>
+          
+          <Button sx={{ mt: 1 /* margin top */ }}>Join</Button>
+          
         </Sheet>
       </main>
     </CssVarsProvider>
